@@ -1,0 +1,13 @@
+{
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "version": "1.0.0",
+    "description": "Stack Overflow",
+    "main": "index.js",
+    "author": "Kousha Talebian <k@ousha.me>",
+    "license": "MIT",
+    "repository": "https://github.com/ktalebian/meetfranz-recipe-stackoverflow",
+    "config": {
+      "serviceURL": "https://stackoverflow.com"
+    }
+  }

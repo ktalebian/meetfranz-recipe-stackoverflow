@@ -1,0 +1,21 @@
+#meetfranz-stackoverflow-navigation {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#meetfranz-stackoverflow-navigation > .fa {
+    color: #697077;
+    cursor: pointer;
+}
+
+#meetfranz-stackoverflow-navigation > .fa:first-child {
+    margin-right: 12px;
+}
+
+#meetfranz-stackoverflow-navigation > .fa:hover {
+    color: black;
+    cursor: pointer;
+}
