@@ -17,3 +17,7 @@ Stack Overflow recipe for Franz.
 
 ## Plugin PR
 This plugin has been left as a PR on https://github.com/meetfranz/plugins/issues/377
+
+## Screenshot
+
+![screenshot](https://user-images.githubusercontent.com/2308915/61356628-9b0ea880-a82b-11e9-859d-0c0d6685becc.png)
