@@ -13,10 +13,6 @@
     cursor: pointer;
 }
 
-#meetfranz-stackoverflow-navigation > .fa:not(:first-child) {
-    margin-left: 12px;
-}
-
 #meetfranz-stackoverflow-navigation > .fa:hover {
     color: #0C0D0E;
     cursor: pointer;
