@@ -1,7 +1,7 @@
 "use strict";
 
 const path = require('path');
-const refreshRateSec = 600; // 10min
+const config = require('./package.json').serviceConfig;
 
 /**
  * Returns the navigational icons with their callback set
@@ -31,25 +31,25 @@ const getNav = () => {
  */
 window.onload = () => {
   const scriptElement = document.createElement('script');
-  scriptElement.src = 'https://use.fontawesome.com/8195baea46.js';
+  scriptElement.src = config.fontAwesomeUrl;
   document.body.appendChild(scriptElement);
 
   const navigationElements = getNav();
 
   const navigation = document.createElement('div');
-  navigation.setAttribute('id', 'meetfranz-stackoverflow-navigation');
+  navigation.setAttribute('id', config.domIDContainer);
   navigation.appendChild(navigationElements.back);
   navigation.appendChild(navigationElements.refresh);
   navigation.appendChild(navigationElements.forward);
-
-  // document.body.appendChild(navigation);
   document.getElementById('left-sidebar').appendChild(navigation);
 
-  setTimeout(window.location.reload.bind(window.location), refreshRateSec * 1000);
+  setTimeout(window.location.reload.bind(window.location), config.refreshRateSec * 1000);
 };
 
 module.exports = Franz => {
-  // Loop runs once a second
+  /**
+   * Loop runs once a second
+   */
   const onLoop = () => {
     getUnreadCount();
   }

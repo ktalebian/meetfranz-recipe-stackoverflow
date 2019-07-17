@@ -9,5 +9,10 @@
     "repository": "https://github.com/ktalebian/meetfranz-recipe-stackoverflow",
     "config": {
       "serviceURL": "https://stackoverflow.com"
+    },
+    "serviceConfig": {
+      "fontAwesomeUrl": "https://use.fontawesome.com/8195baea46.js",
+      "refreshRateSec": 600,
+      "domIDContainer": "meetfranz-stackoverflow-navigation"
     }
   }
