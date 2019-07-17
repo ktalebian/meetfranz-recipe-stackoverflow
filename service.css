@@ -1,21 +1,23 @@
 #meetfranz-stackoverflow-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
-    left: 24px;
     bottom: 24px;
-    width: 100%;
+    width: inherit;
     z-index: 1000;
 }
 
 #meetfranz-stackoverflow-navigation > .fa {
-    color: #697077;
+    color: #848d95;
     cursor: pointer;
 }
 
-#meetfranz-stackoverflow-navigation > .fa:first-child {
-    margin-right: 12px;
+#meetfranz-stackoverflow-navigation > .fa:not(:first-child) {
+    margin-left: 12px;
 }
 
 #meetfranz-stackoverflow-navigation > .fa:hover {
-    color: black;
+    color: #0C0D0E;
     cursor: pointer;
 }

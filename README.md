@@ -1,5 +1,5 @@
 # Stack Overflow for Franz
-Stack Overflow recipe for Franz
+Stack Overflow recipe for Franz.
 
 # Installation
 1. Open the Franz Plugins folder on your machine (note that this dev directory may not exist yet, and you must create it):
@@ -12,4 +12,8 @@ Stack Overflow recipe for Franz
 
 ## Features
 * Unread messages will show up as badge
-* Back/Forward navigational icons on the bottom left/corner of the page
+* Back/Forward/Refresh navigational icons on the bottom left/corner of the page
+* Auto-refresh page every 10 minutes
+
+## Plugin PR
+This plugin has been left as a PR on https://github.com/meetfranz/plugins/issues/377
